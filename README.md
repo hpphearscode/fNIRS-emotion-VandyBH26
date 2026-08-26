@@ -71,9 +71,9 @@ Our hypothesis:
 <h2 align="center">Open Issues</h2>
 
 - Issue #0: Self Introduction
-- Issues #1 - #5: See [Digitization]()
-- Issue #6: See [Preprocessing]()
-- Issues #7 - #10: See [Analysis]()
+- Issues #1 - #5: See [Digitization](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Digitization)
+- Issue #6: See [Preprocessing](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Preprocessing)
+- Issues #7 - #10: See [Analysis](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Analysis)
 
 <br>
 
