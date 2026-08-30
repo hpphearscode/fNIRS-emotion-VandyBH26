@@ -25,11 +25,11 @@ During Vanderbilt BrainHack 2026, contributors will help us:
 
 <h2 align="center">Project Significance</h2>
 
-### **TL&DR**: A dynamic emotional experience is universal for everyday life. Yet, hearing loss may disrupt our emotion perception of sounds. Importantly, improved audibility through the use of hearing aids and cochlear implants do not fully alleviate this disruption. The current project is a first step in the journey to investigate the neural representation of disrupted auditory emotion perception. The outcome of the project will help us understand potential compensatory 
+### **TL&DR**: A dynamic emotional experience is universal for everyday life. Yet, hearing loss may disrupt our emotion perception of sounds. Importantly, improved audibility through the use of hearing aids and cochlear implants do not fully alleviate this disruption. The current project is a first step in the journey to investigate the neural representation of disrupted auditory emotion perception. 
 
 Everyday sounds carry rich emotional meaning: birdsong on a morning walk, a newborn’s coo, a favorite piece of music, or the impatient honk of a driver during rush hour. Our emotional responses to sound—the pleasure😁, comfort😌, excitement🤩, or irritation😡 we feel—are an important part of everyday life and well-being[1]. 
 
-However, behavioral studies in our lab suggest that hearing loss may dampen/compress these responses: our participants with hearing loss rated pleasant sounds as less pleasant, unpleasant sounds as less unpleasant. Importantly, current hearing devices, such as hearing aids and cochlear implants do not fully restore them. The neural representation of hearing loss induced compression in emotional response to sound is currently unclear, especially when aided [2,3].
+However, behavioral studies in our lab suggest that hearing loss may dampen/compress these responses: our participants with hearing loss rated pleasant sounds as less pleasant, unpleasant sounds as less unpleasant. Importantly, current hearing devices, such as hearing aids and cochlear implants do not fully restore them [2,3]. The neural representation of hearing loss induced compression in emotional response to sound is currently unclear, especially when aided.
 
 Prior neuroimaging studies guided our experimental design[5,6]. We suspect that compressed emotional response is reflected in the prefrontal cortex, auditory cortex, and perhaps the connectivity between the two.
 
@@ -49,10 +49,10 @@ Helpful reads:
 
 <h2 align="center">The Current Experiment</h2>
 
-Participants of normal hearing comfortably seated in a sound attenuating booth, listened to sounds from the International Affective Digitized Sound Corpus. Each participant listened to 60 six-second sound clips, which consist of 20 pleasant sounds, 20 unpleasant sounds, and 20 neutral sounds. Sound clips were presented in a blocked-design, where each block had four clips of sounds of the same valence (e.g., all four sounds are pleasant). Between blocks, there was 30 second of silence. A question asking 'Did the sounds make you feel pleasant/unpleasant/neither pleasant or unpleasan' was presented after the end of the fourth sound clip, and participants used the 'Enter' button to indicate 'YES'. No action would indicate 'NO'. Sound clips were randomized within blocks, and order of sound blocks were randomized for each participant. The question was used to keep participants engaged in listening and encourage active appraisal. 
+Participants of normal hearing were comfortably seated in a sound attenuating booth. They listened to sounds from the International Affective Digitized Sound Corpus. These sounds include animal noises (e.g., cats meowing), human social noises (e.g., weeping), bodily noises (e.g., coughing), environmental sounds (e.g., traffic noises), and music (e.g., acoustic guitars). Each participant listened to 60 six-second sound clips, which consist of 20 pleasant sounds, 20 unpleasant sounds, and 20 neutral sounds. Sound clips were presented in a blocked-design, where each block had four clips of sounds of the same valence (e.g., all four sounds are pleasant). Between blocks, there was 30 second of silence. A question asking 'Did the sounds make you feel pleasant/unpleasant/neither pleasant or unpleasan' was presented after the end of the fourth sound clip, and participants used the 'Enter' button to indicate 'YES'. No action would indicate 'NO'. Sound clips were randomized within blocks, and order of sound blocks were randomized for each participant. The question was used to keep participants engaged in listening and encourage active appraisal. 
 
 Our hypothesis: 
-- Relative to neutral sounds, both unpleasant and pleasant sound would elicit greater auditory region acitivities. Due to penetration limits of near infra-red light, our auditory ROIs are secondary auditory cortices. 
+- Relative to neutral sounds, both unpleasant and pleasant sound would elicit greater auditory region acitivities. 
 - Similarly, we also expect the prefrontal cortex to show stronger activation to both unpleasant and pleasant sounds, relative to neutral sounds.
 
 
@@ -74,6 +74,10 @@ Our hypothesis:
 - Issues #1 - #5: See [Digitization](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Digitization)
 - Issue #6: See [Preprocessing](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Preprocessing)
 - Issues #7 - #10: See [Analysis](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/tree/main/Analysis)
+
+<br>
+
+Data could be found [here](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/blob/main/Data/Data%20repository)
 
 <br>
 

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Auditory emotion fNIRS blocked-design experiment</title>
+  <desc id="desc">The session begins with six minutes of resting-state fNIRS, continues with the main blocked auditory-emotion task, and ends with optode digitization. During the main task, each sound block contains four six-second IADS sounds played consecutively for twenty-four seconds, immediately followed by a five-second prompt and a thirty-second inter-block interval.</desc>
+
+  <defs>
+    <filter id="shadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#102a43" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#176b87"/>
+    </marker>
+    <style>
+      .title { font: 700 38px Arial, Helvetica, sans-serif; fill: #102a43; }
+      .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #486581; }
+      .section { font: 700 24px Arial, Helvetica, sans-serif; fill: #102a43; }
+      .label { font: 700 18px Arial, Helvetica, sans-serif; fill: #102a43; }
+      .body { font: 400 17px Arial, Helvetica, sans-serif; fill: #243b53; }
+      .small { font: 400 14px Arial, Helvetica, sans-serif; fill: #486581; }
+      .small-bold { font: 700 14px Arial, Helvetica, sans-serif; fill: #243b53; }
+      .white { fill: #ffffff; }
+      .center { text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <text x="80" y="58" class="title">Auditory emotion fNIRS experiment</text>
+  <text x="80" y="91" class="subtitle">Session flow and blocked auditory-task structure</text>
+
+  <!-- Session-level flow -->
+  <text x="80" y="139" class="section">Experiment session</text>
+  <line x1="95" y1="223" x2="1505" y2="223" stroke="#176b87" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="163" width="315" height="92" rx="12" fill="#e9eef3"/>
+    <circle cx="135" cy="209" r="22" fill="#ffffff"/>
+    <path d="M122 209 h8 l5 -10 l8 20 l6 -10 h9" fill="none" stroke="#176b87" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="270" y="195" class="label center">Resting-state fNIRS</text>
+    <text x="270" y="222" class="body center">6 minutes</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="485" y="150" width="630" height="105" rx="12" fill="#dceef7" stroke="#6aa7bd" stroke-width="2"/>
+    <g transform="translate(520 177)">
+      <rect x="0" y="0" width="36" height="50" rx="4" fill="#176b87"/>
+      <rect x="40" y="0" width="36" height="50" rx="4" fill="#176b87" opacity="0.87"/>
+      <rect x="80" y="0" width="36" height="50" rx="4" fill="#176b87" opacity="0.74"/>
+      <rect x="120" y="0" width="36" height="50" rx="4" fill="#176b87" opacity="0.61"/>
+    </g>
+    <text x="845" y="187" class="label center">Main auditory-emotion task</text>
+    <text x="845" y="217" class="body center">Blocked design</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1190" y="163" width="280" height="92" rx="12" fill="#edf2f7"/>
+    <g transform="translate(1222 184)" fill="#176b87">
+      <circle cx="5" cy="6" r="5"/><circle cx="29" cy="2" r="5"/><circle cx="51" cy="10" r="5"/>
+      <circle cx="10" cy="31" r="5"/><circle cx="36" cy="27" r="5"/><circle cx="55" cy="39" r="5"/>
+      <path d="M5 6 L29 2 L51 10 L55 39 L36 27 L10 31 Z" fill="none" stroke="#176b87" stroke-width="2"/>
+    </g>
+    <text x="1363" y="195" class="label center">Digitization</text>
+    <text x="1363" y="222" class="body center">Optode locations</text>
+  </g>
+
+  <!-- Main task overview -->
+  <line x1="80" y1="293" x2="1520" y2="293" stroke="#d9e2ec" stroke-width="2"/>
+  <text x="80" y="337" class="section">Main task: repeated sound-block cycles</text>
+  <text x="80" y="367" class="body">Each block contains sounds from one emotion condition; block order follows the experimental schedule.</text>
+
+  <g transform="translate(80 397)">
+    <!-- Cycle 1 -->
+    <g filter="url(#shadow)">
+      <rect x="0" y="0" width="170" height="72" rx="9" fill="#176b87"/>
+      <text x="85" y="26" class="white small-bold center">SOUND BLOCK 1</text>
+      <text x="85" y="50" class="white body center">24 s</text>
+      <rect x="176" y="0" width="92" height="72" rx="9" fill="#edf2f7" stroke="#9fb3c8"/>
+      <text x="222" y="26" class="small-bold center">PROMPT</text>
+      <text x="222" y="50" class="body center">5 s</text>
+      <rect x="274" y="0" width="126" height="72" rx="9" fill="#102a43"/>
+      <text x="337" y="26" class="white small-bold center">IBI</text>
+      <text x="337" y="50" class="white body center">30 s</text>
+    </g>
+
+    <line x1="408" y1="36" x2="439" y2="36" stroke="#176b87" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Cycle 2 -->
+    <g transform="translate(454 0)" filter="url(#shadow)">
+      <rect x="0" y="0" width="170" height="72" rx="9" fill="#176b87"/>
+      <text x="85" y="26" class="white small-bold center">SOUND BLOCK 2</text>
+      <text x="85" y="50" class="white body center">24 s</text>
+      <rect x="176" y="0" width="92" height="72" rx="9" fill="#edf2f7" stroke="#9fb3c8"/>
+      <text x="222" y="26" class="small-bold center">PROMPT</text>
+      <text x="222" y="50" class="body center">5 s</text>
+      <rect x="274" y="0" width="126" height="72" rx="9" fill="#102a43"/>
+      <text x="337" y="26" class="white small-bold center">IBI</text>
+      <text x="337" y="50" class="white body center">30 s</text>
+    </g>
+
+    <text x="910" y="36" class="title center">⋯</text>
+
+    <!-- Final cycle -->
+    <g transform="translate(976 0)" filter="url(#shadow)">
+      <rect x="0" y="0" width="260" height="72" rx="9" fill="#176b87"/>
+      <text x="130" y="26" class="white small-bold center">FINAL SOUND BLOCK</text>
+      <text x="130" y="50" class="white body center">24 s</text>
+      <rect x="266" y="0" width="118" height="72" rx="9" fill="#edf2f7" stroke="#9fb3c8"/>
+      <text x="325" y="26" class="small-bold center">PROMPT</text>
+      <text x="325" y="50" class="body center">5 s</text>
+    </g>
+  </g>
+
+  <text x="800" y="498" class="small center">A 30-second inter-block interval separates consecutive sound blocks; no IBI is shown after the final block.</text>
+
+  <!-- Expanded cycle -->
+  <line x1="80" y1="527" x2="1520" y2="527" stroke="#d9e2ec" stroke-width="2"/>
+  <text x="80" y="571" class="section">One sound-block cycle, enlarged</text>
+  <text x="80" y="601" class="body">Four 6-second IADS sounds are presented back to back, followed immediately by the prompt.</text>
+
+  <!-- Sound block bracket -->
+  <path d="M82 650 v-15 h924 v15" fill="none" stroke="#176b87" stroke-width="2"/>
+  <text x="544" y="627" class="label center">Sound block · 24 seconds</text>
+
+  <g transform="translate(82 660)" filter="url(#shadow)">
+    <rect x="0" y="0" width="225" height="105" rx="10" fill="#176b87"/>
+    <path d="M38 39 h15 l14 -12 v38 l-14 -12 h-15 z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M74 36 q13 11 0 22 M84 29 q23 18 0 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="151" y="39" class="white label center">IADS 1</text>
+    <text x="151" y="66" class="white body center">6 s</text>
+
+    <rect x="229" y="0" width="225" height="105" rx="10" fill="#176b87" opacity="0.90"/>
+    <path d="M267 39 h15 l14 -12 v38 l-14 -12 h-15 z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M303 36 q13 11 0 22 M313 29 q23 18 0 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="380" y="39" class="white label center">IADS 2</text>
+    <text x="380" y="66" class="white body center">6 s</text>
+
+    <rect x="458" y="0" width="225" height="105" rx="10" fill="#176b87" opacity="0.80"/>
+    <path d="M496 39 h15 l14 -12 v38 l-14 -12 h-15 z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M532 36 q13 11 0 22 M542 29 q23 18 0 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="609" y="39" class="white label center">IADS 3</text>
+    <text x="609" y="66" class="white body center">6 s</text>
+
+    <rect x="687" y="0" width="225" height="105" rx="10" fill="#176b87" opacity="0.70"/>
+    <path d="M725 39 h15 l14 -12 v38 l-14 -12 h-15 z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M761 36 q13 11 0 22 M771 29 q23 18 0 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <text x="838" y="39" class="white label center">IADS 4</text>
+    <text x="838" y="66" class="white body center">6 s</text>
+  </g>
+
+  <!-- Prompt and IBI -->
+  <g transform="translate(1018 660)" filter="url(#shadow)">
+    <rect x="0" y="0" width="165" height="105" rx="10" fill="#edf2f7" stroke="#9fb3c8" stroke-width="2"/>
+    <text x="82.5" y="41" class="label center">Prompt</text>
+    <text x="82.5" y="70" class="body center">5 s</text>
+  </g>
+
+  <g transform="translate(1195 660)" filter="url(#shadow)">
+    <rect x="0" y="0" width="305" height="105" rx="10" fill="#102a43"/>
+    <text x="152.5" y="41" class="white label center">Inter-block interval</text>
+    <text x="152.5" y="70" class="white body center">30 s</text>
+  </g>
+
+  <line x1="95" y1="798" x2="1505" y2="798" stroke="#176b87" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="544" y="824" class="small center">No gaps between sounds</text>
+  <text x="1100" y="824" class="small center">Immediately after sound block</text>
+  <text x="1347" y="824" class="small center">Between sound blocks</text>
+
+  <g transform="translate(80 850)">
+    <rect x="0" y="-19" width="1440" height="42" rx="9" fill="#f3f7fa"/>
+    <text x="720" y="3" class="body center">One complete sound-block cycle: 24 s sound + 5 s prompt + 30 s IBI ≈ 59 seconds</text>
+  </g>
+</svg>

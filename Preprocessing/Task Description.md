@@ -10,7 +10,37 @@
 
 ### How are we currently doing it?
 
-Our current workflow is adapted from MNE-NIRS analysis example [here](https://mne.tools/mne-nirs/stable/auto_examples/general/plot_15_waveform.html)
+
+#### Waveform averaging - adapted from MNE-NIRS analysis example [here](https://mne.tools/mne-nirs/stable/auto_examples/general/plot_15_waveform.html)
+
+```mermaid
+flowchart TD
+    A["Read native NIRx data"] --> B["Rename trigger codes"]
+    B --> C["Collapse 4 × 6 s sound events into one 24 s block annotation"]
+    C --> D["Convert intensity to optical density (OD)"]
+
+    D --> E["Compute SCI for channel quality"]
+    E --> F["Separate short and long channels"]
+    F --> G["Remove SCI-bad short channels"]
+    G --> H["Resample"]
+    H --> I["TDDR motion correction in OD space"]
+    I --> J["Short-channel regression in OD space"]
+
+    J --> K["Keep long channels only"]
+    K --> L["Mark or interpolate SCI-bad long channels"]
+    L --> M["Convert OD to HbO and HbR using the Beer–Lambert law"]
+    M --> N["Band-pass filter"]
+
+    N --> O["Extract pleasant, neutral, and unpleasant block events"]
+    O --> P["Epoch data around block onset: −5 to 50 s"]
+    P --> Q["Baseline correction: −5 to 0 s"]
+    Q --> R["Reject bad epochs"]
+
+```
+
+<br>
+
+
 
 - Data Cleaning & Quality Check: 
   - Check annotations/trigger events.
