@@ -77,7 +77,7 @@ Our hypothesis:
 
 <br>
 
-Data could be found [here](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/blob/main/Data/Data%20repository)
+Data could be found [here](https://github.com/hpphearscode/fNIRS-emotion-VandyBH26/blob/main/Data/Data%20repository.md)
 
 <br>
 
