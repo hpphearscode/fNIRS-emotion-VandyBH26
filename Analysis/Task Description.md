@@ -21,7 +21,7 @@
   <img
     width="100%"
     alt="Auditory emotion fNIRS experimental block design"
-    src="Assets/brainhack-experiment-schematic.svg"
+    src="../Assets/brainhack-experiment-schematic.svg"
   />
 </p>
 
