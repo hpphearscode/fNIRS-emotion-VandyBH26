@@ -25,18 +25,18 @@ Note:
   - 5 (IBI - _P_end): Marks the end of this rest/silent interval.
   - 6 (IBI - _N_start): Marks the start of the rest/silent interval before a new group of four neutral sounds.
   - 7 (IBI - _N_end): Marks the end of this rest/silent interval.
-  - 8 (IBI_UP_start): Marks the start of the rest/resting interval before a new group of four unpleasant sounds.
+  - 8 (IBI_UP_start): Marks the start of the rest/silent interval before a new group of four unpleasant sounds.
   - 9 (IBI_UP_end): Marks the end of this rest/silent interval.
 
 - Engagement Task Triggers
   - 10 (Engage_text_P): Displays the engagement text asking about whether the participant felt pleasant during the sound block.
   - 11 (Engage_text_N): Displays the engagement text asking about whether the participant felt neutral during the sound block.
   - 12 (Engage_text_UP): Displays the engagement text asking about whether the participant felt unpleasant during the sound block.
-  - 13 (Engage_text__end): Marks the end of the engagement text display and response window.
+  - 13 (Engage_text_end): Marks the end of the engagement text display and response window.
   - 15 (Button_press): Logs a physical button press event during the response window of engagement prompt.
 
 - Experiment Control Triggers
   - 14 (End_experiment): Marks the official conclusion of the experimental session.
 
 
-License: [See](D:\Research Projects\2022-fNIRS.EEG\Github\fNIRS-emotion-VandyBH26\LICENSE-DATA.md)
+**License:** [CC BY 4.0](../LICENSE-DATA.md)
