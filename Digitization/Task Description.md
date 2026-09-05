@@ -8,12 +8,12 @@
 - But everyone's head differs in size, shape, etc. 
     - Even when using the same cap, the same optodes may be covering different, adjacent brain regions.
     - This problem is more severe if the cap size does not align with one's head circumference. This is quite common in fNIRS studies. Many labs have 2-3 caps ready to go, but very often participants' head sizes go beyond the size range. Unlike EEG, it is usually very costly to have many fNIRS caps of different sizes set-up at the same time.
-- Therefore, to make appropriate interpretations, we should know how much the optodes on a given participant's head deviate from the underlying anatomy, based on a standardized template. You could also think of this process as normalizing the coordinates. 
+- Therefore, to make appropriate interpretations, we should know how much the optodes on a given participant's head deviate from the underlying anatomy, based on a standardized template. 
 
 ### How are we currently doing it?
 
 - We are currently using [Structure Sensor III](https://structure.io/?gad_source=1&gad_campaignid=22794124010&gbraid=0AAAAA9c7Ky4hqyHtVNQJ-jQBlpQJvrkzU&gclid=CjwKCAjw7p_UBhBlEiwAhpIs75k6WOIF8CXM4O9HWXP_G1X0QeqBqN_Y8tBVCj1J-EYpxG_nrf1HQxoCMYIQAvD_BwE). It is a 3D body scanner built for healthcare professionals. It projects an invisible infrared dot pattern onto objects and uses synchronized cameras to measure how the pattern warps. The output file format is currently .obj. These files can be found [here](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/haiping_huang_vanderbilt_edu/IgCcFO1ZM24QQ7hXgy4C2fDQAaldcm64un7yAAWXytMsNA4?e=EcfHeE)
-- We are currently using the [FieldTrip toolbox](https://www.fieldtriptoolbox.org/) for co-registration. Workflow example may be found [here](https://www.fieldtriptoolbox.org/tutorial/source/electrode/) 
+- We are currently using the [FieldTrip toolbox](https://www.fieldtriptoolbox.org/) for co-registration. Workflow example may be found [here](https://www.fieldtriptoolbox.org/tutorial/source/electrode/). We have only explored up til the extraction of coordinates for each optode in a given coordinate system. Our ultimate goal here is to apply participant-specific corrections (when appropriate) to each channel from the scan. E.g., The same channel S7-D7 may show up as having different MNI space coordinates for two participants due to head size/geometry differences, we want to include that in our analysis.
 
 
 
