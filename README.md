@@ -40,7 +40,7 @@ Helpful reads:
 4. Satpute, A. B., Kang, J., Bickart, K. C., Yardley, H., Wager, T. D., & Barrett, L. F. (2015). Involvement of sensory regions in affective experience: a meta-analysis. Frontiers in psychology, 6, 1860.
 5. Plichta, M. M., Gerdes, A. B., Alpers, G. W., Harnisch, W., Brill, S., Wieser, M. J., & Fallgatter, A. J. (2011). Auditory cortex activation is modulated by emotion: a functional near-infrared spectroscopy (fNIRS) study. Neuroimage, 55(3), 1200-1207.
 6. Husain, F. T., Carpenter-Thompson, J. R., & Schmidt, S. A. (2014). The effect of mild-to-moderate hearing loss on auditory and emotion processing networks. Frontiers in systems neuroscience, 8, 10.
-7. Ferrari, M., & Quaresima, V. (2012). A brief review on the history of human functional near-infrared spectroscopy (fNIRS) development and fields of application. Neuroimage, 63(2), 921-935.
+7. 💡💡💡**Pinti, P., Tachtsidis, I., Hamilton, A., Hirsch, J., Aichelburg, C., Gilbert, S., & Burgess, P. W. (2020). The present and future use of functional near‐infrared spectroscopy (fNIRS) for cognitive neuroscience. Annals of the new York Academy of Sciences, 1464(1), 5-29.** *See this paper for an introduction of the physical principles of fNIRS and how it relates to the hemodynamic response that we are trying to measure.*
 
 
 
